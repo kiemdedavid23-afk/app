@@ -1,0 +1,49 @@
+/* ==========================================================================
+   IDENTITÉ — BLEU PRINCIPAL, CRÈME CHALEUREUX, OR EN ACCENT PONCTUEL
+   ========================================================================== */
+
+:root {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --navy: #1c3f66;
+  --navy-light: #2c5c8a;
+  --blue-accent: #3f74b3;
+  --gold: #c9a250;
+
+  --bg-cream: #f7efdc;
+  --bg-white: #fffcf5;
+  --bg-soft: #eef2f6;
+
+  --text-primary: #172433;
+  --text-secondary: #45505d;
+  --text-muted: #5c6875;
+  --text-on-dark: rgba(255, 255, 255, 0.9);
+  --text-on-dark-muted: rgba(255, 255, 255, 0.72);
+
+  --shadow-soft: 0 15px 35px rgba(28, 63, 102, 0.14);
+  --shadow-strong: 0 20px 40px rgba(28, 63, 102, 0.22);
+
+  --radius-lg: 28px;
+  --radius-pill: 40px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 16px; }
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-cream);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+a { color: inherit; }
+
+/* Placeholder CSS — See original file for complete styles */
+.site-header { background-color: rgba(247, 239, 220, 0.92); }
+.hero-section { padding: 2.5rem 1.25rem 3rem; }
+.btn-primary { background-color: var(--navy); color: #fff; padding: 0.95rem 2.1rem; border-radius: var(--radius-pill); }
+.btn-secondary { border: 1.5px solid var(--navy); color: var(--navy); padding: 0.95rem 2.1rem; border-radius: var(--radius-pill); }

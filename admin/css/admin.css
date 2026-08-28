@@ -1,0 +1,45 @@
+/* ==========================================================================
+   ADMINISTRATION — réutilise les variables/tokens de ../css/style.css
+   ========================================================================== */
+
+.admin-body { background-color: var(--bg-cream); min-height: 100vh; }
+.admin-body-centered { display: flex; align-items: center; justify-content: center; padding: 1.5rem; }
+
+.admin-login-wrapper { width: 100%; display: flex; justify-content: center; }
+
+.admin-login-card {
+  width: 100%;
+  max-width: 380px;
+  background-color: var(--bg-white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-strong);
+  padding: 2.5rem 1.75rem;
+  text-align: center;
+}
+
+.admin-login-title { font-family: var(--font-serif); font-size: 1.5rem; color: var(--navy); font-weight: 600; }
+.admin-page-title { font-family: var(--font-serif); font-size: 1.6rem; color: var(--navy); font-weight: 600; margin-bottom: 0.4rem; }
+.admin-page-lead { font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 1.75rem; }
+
+.admin-field label { display: block; font-size: 0.85rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.4rem; }
+.admin-field input, .admin-field select, .admin-field textarea {
+  width: 100%;
+  padding: 0.75rem 0.9rem;
+  border: 1.5px solid rgba(28, 63, 102, 0.18);
+  border-radius: 14px;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  color: var(--text-primary);
+}
+
+.btn-mini {
+  border: none;
+  border-radius: var(--radius-pill);
+  padding: 0.45rem 0.9rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-mini-primary { background-color: var(--navy); color: #fff; }
+.btn-mini-secondary { background-color: var(--bg-soft); color: var(--navy); }
